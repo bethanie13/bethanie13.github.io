@@ -2,75 +2,137 @@
 <html>
 
 <head>
-        <title>Practicing Git in CSC 426 at Berea College</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+	.button {
+	  background-color: #4CAF50;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  cursor: pointer;}
+	  
+	img {
+	  float: right;
+	}
+	p.ex1 {
+	  margin-right: 150px;
+	}
+	
+</style>
+        <title>Bethanie Williams </title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 	<script src="poem.js"></script>
 </head>
 
 <body>
         <div class="section" id="plan">
-                <h1>Practicing Git at Berea College</h1>
+                <h1><p style="color:black;">Bethanie Williams' Portfolio</p></h1>
+
                 <div class="minileft">
-                        <div><img src="draper.jpg"/></div>
-                        <div><img src="codepic.jpg" width = "50%"/></div>
+                        <div><img src="williams.jpg" width ="350" height ="370"/></div>
                 </div>
-
-		<p>Ready to learn about version control through git? </p>
-
-                <h2>Version control is...</h2>
-
-                <p>A way of keeping track of changes to a project so that if something needs to be rolled back to an older version that can be done.</p>
-                
-                <p>It is often used when you have multiple people working on the same project so that the correct changes can be pulled into the project.</p>
-
-                <h2>Cloning a repository...</h2>
-
-		<p>... is the process in which you copy a folder from Github into your personal computer. <a href="http://en.wikipedia.org/wiki/Clone_Wars_(Star_Wars)">The Clone Wars</a>, that is.</p>
-
-                <h2>"Adding", "committing" and "pushing" changes...</h2>
-
-		<p>"Adding" changes is when you push the changes you have made to the staging area. The next step is to commit these changes. </p>
-
-                <p> "Committing" a change means that you have decided that your code changes are complete, and you are ready to commit them to the final code.</p>
-
-                <p> Finally, "Pushing" is when you request for your personal changes to be added to the master file for the project. This means that the fixes that you made will be integrated into the source code for the project.</p>
-
-                <h2>You need to fork when...</h2>
-                <p>...You would like to take a project in a direction
-                 which may not be suitable for or in agreement with
-                 the project's initial intention.</p>
-
-        </div>
-
-        <div class="section" id="poem">
-		<p>An interactive poem about version control:</p>
-		<div id="line">
-		<p onClick=nextLine(0)>(Click to advance.)</p>
+                <h2>About:</h2>
+                <p>I am currently majoring in Computer Science, Mathematics, and Spanish at Berea College. 
+				I am hoping to attend gradaute school and obtain my doctorate in Computer Science. 
+				I have previous experience as a teaching assistant and have done undergraduate research. 
+				I am interested in the fields of cybersecurity, machine learning, and data science. 
+				I love learning new things and very passionate about technology. I am continually learning
+				new skills to solve real world problems. I want to use technology to help people and serve my community.
+				<br>
+				<br>
+				My other interests include participating in sports. I enjoy playing basketball, softball, and swimming. 
+				I like hiking, making crafts, coaching, and working with children. I find myself being actively involved 
+				in my community and serving others through community service projects. I love to work on various technological 
+				projects, and collaborate with others to gain new techniques for the building of different applications. </p>
 		</div>
-        </div>
+			
+		<div class="section" id="more">
+            
+				<h2 class="text-center" style="color:black;">Projects</h2>
+				<div class="container text-center">
+			<div class="row text-center">
+			<div class="col-6">
+				  <h5>Tri State Women in Computing (TRIWiC) Website</h5>
+				  <div > <a href="files/TRIWiC Abstract.pdf" class="button">Abstract</a> 
+				  <a href="http://triwic.acm.org/"  class="button">Website</a></div>
+				</div>
+				<div class="col-6">
+					<h5>Mapping and Network Visualization</h5>
+					<a href="files/Data_Visualization_Abstract.pdf" class="button">Abstract</a>
+					<a href="https://docs.google.com/presentation/d/1gmebVuT9Ip6NMph-teAUmFTiKixNqeBILMQKhzMIlCw/edit?usp=sharing" class="button">Presentation</a>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-6">
 
+					<h5>An Approach to Increase Availability of Cultural<br>
+					Archives: Pine Mountain Settlement School</h5>
+					<a href="files/Schmidt and Williams - BURIS.pdf" class="button">Abstract</a>
+					<a href="https://github.com/bethanie13/PMSS_Scraper" class="button">GitHub Repo</a>
+				</div>
+				<div class="col-6">
+
+					<h5>Adventureland</h5>
+					<a href="files/Schmidt and Williams - BURIS.pdf" class="button">Abstract</a>
+					<a href="https://github.com/bethanie13/Adventureland-Project.git" class="button">GitHub Repo</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <p>... is the process in which you copy a folder from Github into your personal computer. <a href="http://en.wikipedia.org/wiki/Clone_Wars_(Star_Wars)">The Clone Wars</a>, that is.</p>-->
+			<div class="section" id="more">
+                <h2>Professional Experience</h2>
+				<h4>Computer Science Teaching Assistant: Berea College August 2019- Present</h4>
+				<p>
+					•	Mentor 30 students in a weekly computer lab with data structure assignments <br> 
+					•	Work with students’ individual learning styles to develop efficient coding skills <br>
+					•	Liaison between students and faculty to improve programming technique 
+				</p>
+
+                <h4>Computer Science Research Assistant: Berea College May 2019- July 2019</h4>
+                <p>•	Collaborated with colleague to create a web crawler and web scraper using a <br>
+						Python library called BeautifulSoup <br>
+				   •	Traversed blog site of Pine Mountain Settlement School to extract visual and <br>
+						document photographs and their corresponding captions and transcripts <br>
+				   •	Problem solved to pair relevant data together and output metadata into the <br>
+						archiving platform of contentDM 
+				</p>
+				
+				<h4>Bonner Associate of Administration: Berea College August 2018- May 2019</h4>
+                <p>•	Created labor meetings, core staff meetings, and mentored college students <br>
+				   •	Arranged a summer service experience of 280 hours for 60+ Bonner scholars <br>
+	               •	Planned all Bonner Scholar functions and events at Berea College 
+				</p>
+			</div>
+       
         <div class="section" id="more">
-                <h2>More about open source</h2>
-                <p>Free, open source software is software that is
-                shared freely and available to build upon. It is an
-                effective way to apply your skills to various projects
-                and social causes. You can participate by writing or
-                reviewing code, answering users' questions,
-                translating the interface to another layout, making
-                video tutorials to help new users, and myriad other
-                ways. Open source software is often produced by lots
-                of people collaborating across oceans and borders, and
-                this event specially welcomes newcomers to that style
-                of event.</p>
-
-                <p>Open source participation is one way to gain
-                code skills and make connections that will last
-                you through your career. Volunteer staff will include
-                professionals and academics who use open source
-                daily.</p>
+                <h2>Volunteer Experience </h2>
+				<h4>STEM Education Intern: Boys & Girls Club: Newport, TN May 2016- July 2016</h4>
+				
+				 <img src="spain2.jpg" alt="" style="width:450px;height:350px;margin-right:-5px;">
+				<p>•	Responsible for learning library <br>
+				   •	Planned daily curriculum activities for children <br>
+                   •	Organized scientific experiments such as, volcanoes, rockets, and other stem activities<br></p>
+				
+				<h4>Physical Education Teacher: Boys & Girls Club: Newport, TN May 2017- July 2017</h4>
+				<p>•	Used team sports to create a sense of unity and eager learning environment<br>
+				   •	Developed daily curriculum activities for children<br> 
+				   •	Promoted a competitive desire to improve individual skills while having fun</p>
+		
+				<h4>LIFE International School Volunteer: Madrid, Spain May 2018- July 2018 
+				</h4>
+				<p>•	Evaluated and analyzed students’ growth, progress, and athletic abilities<br>
+				   •	Adapted to culture and language barrier through the use of sports <br>
+				   •	Educated students about the rules of basketball, value of teamwork, and dedication</p>
         </div>
-	<div class="section" id="CSC426">
-                <h2>What is CSC 426?</h2>
+	<div class="section" id="Education">
+                <h2>Education</h2>
                 <p>CSC 426 is a computer science class at Berea College.
 		The complete title is CSC 426: Open Source Software
 		Engineering. Here is the catalog description: </p>
@@ -90,7 +152,7 @@
 
         </div>
 
-        <div class="section" id="whoweare">
+        <!--<div class="section" id="whoweare">
                 <h2>Who we are</h2>
                 <p>This activity was put together by Shauna Gordon-McKeon and
 		<a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a> of
@@ -111,8 +173,15 @@
                 <li><a href="https://help.github.com/articles/git-and-github-learning-resources/">GitHub Help</a></li>
                 </p>
                 </ul>
-        </div>
-
+        </div>-->
+   <!--<div class="section" id="poem">
+		<p>An interactive poem about version control:</p>
+		<div id="line">
+		<p onClick=nextLine(0)>(Click to advance.)</p>
+		</div>
+        </div>-->
 </body>
 
 </html>
+
+
